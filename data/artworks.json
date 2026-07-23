@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Sahyo sketches",
+        "technique": "Digital painting",
+        "year": 2024,
+        "image": "img/artworks/piece1.png"
+    },
+    {
+        "title": "Jihyo portraits",
+        "technique": "Digital painting",
+        "year": 2025,
+        "image": "img/artworks/piece2.jpg"
+    },
+    {
+        "title": "Divine femenines",
+        "technique": "Digital painting",
+        "year": 2026,
+        "image": "img/artworks/piece3.jpg"
+    }
+]

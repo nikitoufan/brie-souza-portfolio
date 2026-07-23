@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Swan - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:title" content="Brie Souza — Comic Artist Portfolio">
+    <meta property="og:description" content="Comic illustration and coloring portfolio by Brie Souza.">
+    <meta property="og:image" content="https://tudominio.com/img/og-preview.jpg">
+    <meta property="og:url" content="https://tudominio.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card (Twitter/X uses its own tags, though it also reads the Open Graph ones) -->
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+    <header>
+        <h1>Brie Souza</h1>
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Artworks will be generated here using JavaScript -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-content">
+                <img src="img/artist-photo.jpg" alt="Artist photo" class="about-photo">
+                <p>
+                    Short bio goes here. Hi, my name is Ella and I am quite literally,
+                    in all terms of honesty and sincerity, the best artist in the world.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Interested in a piece or a commission? Get in touch:</p>
+            <ul class="contact-links">
+                <li><a href="mailto:briesouza.art@gmail.com">Email</a></li>
+                <li><a href="https://instagram.com/briesouza.art" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://x.com/briesouza_art" target="_blank" rel="noopener">Twitter</a></li>
+                <li><a href="https://bsky.app/profile/briesouza.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+                <li><a href="https://tiktok.com/@briesouza.art" target="_blank" rel="noopener">TikTok</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brie Souza</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox hidden">
+        <span class="lightbox-close">&times;</span>
+        <img src="" alt="" id="lightbox-img">
+        <p id="lightbox-caption"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
